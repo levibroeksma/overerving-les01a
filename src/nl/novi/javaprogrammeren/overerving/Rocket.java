@@ -38,4 +38,5 @@ public class Rocket {
     public String toString() {
         return "The Rocket is flying at an altitude of " + this.height + " meters.";
     }
+
 }

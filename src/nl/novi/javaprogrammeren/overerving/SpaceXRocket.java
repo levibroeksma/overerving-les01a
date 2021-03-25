@@ -6,4 +6,7 @@ public class SpaceXRocket extends Rocket {
     public SpaceXRocket(int maximumFuel) {
         super(maximumFuel);
     }
+
+    @Override
+    public int calculateMetersFlown(int fuel) {return fuel * 150;}
 }
